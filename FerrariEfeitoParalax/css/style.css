@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --fonte-principal: 'Lora', serif;
+    --fonte-padrao: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: rgb(143, 3, 3);
+    color: white;
+    text-align: center;
+    
+}
+
+header > h1 {
+    font-variant: small-caps;
+    font-family: var(--fonte-principal);
+    font-size: 5vw;
+    display: inline-block;
+}
+
+.logo{
+    max-width: 150px;
+    width: 7vw;
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    line-height: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: var(--fonte-padrao);
+    font-size: 2vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.historia {
+    background-color: rgb(143, 3, 3);
+    color: black;
+}
+
+section.historia > h2 {
+    font-size: 3em;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+
+section.fato-importante {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.fato-importante > h2 {
+    font-size: 2em;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+
+section.fato-importante > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../img/250-GTO.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('../img/F50-Black.jpg');
+    background-position: left center;
+}
+
+section#img03 {
+    background-image: url('../img/FXX.jpg');
+    background-position: center center;
+}
+
+section#img04 {
+    background-image: url('../img/LaFerrari.jpg');
+    background-position: left center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    border-color: white;
+}

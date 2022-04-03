@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --fonte1: Verdana, Geneva, Tahoma; sans-serif;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
