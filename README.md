@@ -24,7 +24,7 @@ Após aprender o conceito e realizar o desafio proposto pelo professor, decidi e
 Na Live do canal Devemdobro foi ensinado a como criar uma __Pokedex__ utilizando HTML CSS e Javascript.
 Seguindo todos os passos ensinados pelos professores, e com algumas modificações como a não criação de varios arquivos .CSS, esse foi o resultado do projeto final.
 
-[Pokedex] (https://ericklvieira.github.io/Estudos-e-Exercicios/Pokedex/index.html)
+[Pokedex](https://ericklvieira.github.io/Estudos-e-Exercicios/Pokedex/index.html)
 
 Estarei realizando novos projetos futuros.
 Caso queira saber mais sobre como realizo meus estudos e metodos de aplicação dos mesmo, basta antrar em contato pelas minhas redes sociais e me acompanhar aqui pelo [GitHub](https://github.com/ErickLVieira).
