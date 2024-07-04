@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Separador de PDF</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Separador de PDF</h1>
+    
+    <form id="pdf-form">
+      <label for="pdf-file">Escolha o PDF:</label>
+      <input type="file" id="pdf-file" accept="application/pdf" required>
+      
+      <label for="pdf-name">Nome do novo PDF:</label>
+      <input type="text" id="pdf-name" required>
+      
+      <label for="pdf-interval">Intervalos de páginas (ex: 1-3,5):</label>
+      <input type="text" id="pdf-interval" required>
+      
+      <button type="button" id="add-to-list">Adicionar à Lista</button>
+    </form>
+    
+    <h2>Lista de PDFs a serem criados</h2>
+    <ul id="pdf-list"></ul>
+    
+    <button id="split-pdf" class="btn primary">Separar PDF</button>
+  </div>
+</body>
+</html>
